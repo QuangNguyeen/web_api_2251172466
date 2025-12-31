@@ -109,9 +109,9 @@ func main() {
 	// Start server
 	log.Println("")
 	log.Println("========================================")
-	log.Println("📚 Online Learning Management API")
-	log.Println("🌍 Server: http://localhost:" + cfg.Port)
-	log.Println("📖 Swagger: http://localhost:" + cfg.Port + "/swagger/index.html")
+	log.Println("Online Learning Management API")
+	log.Println("Server: http://localhost:" + cfg.Port)
+	log.Println("Swagger: http://localhost:" + cfg.Port + "/swagger/index.html")
 	log.Println("========================================")
 
 	if err := router.Run(":" + cfg.Port); err != nil {

@@ -82,6 +82,6 @@ func InitDB(cfg *Config) *gorm.DB {
 		log.Fatalf("Failed to connect to database: %v", err)
 	}
 
-	log.Println("✅ Database connected successfully!")
+	log.Println("Database connected successfully!")
 	return db
 }
