@@ -1,0 +1,35 @@
+# Ignore binary files
+bin/
+library-api
+*.exe
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.iml
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+*.env
+!.env.example
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignore test coverage
+coverage.out
+coverage.html
+
+# Ignore vendor (if not using go modules)
+# vendor/
