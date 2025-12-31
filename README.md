@@ -39,8 +39,8 @@ go mod tidy
 go run cmd/api/main.go
 ```
 
-Server chạy tại: http://localhost:8080
-Swagger UI: http://localhost:8080/docs/index.html
+- Server chạy tại: http://localhost:8080
+- Swagger UI: http://localhost:8080/docs/index.html
 
 ### 4. Chạy Flutter App
 
